@@ -1,0 +1,42 @@
+[
+    {
+        "id": "tools",
+        "children":
+        [
+
+            {
+                "id": "{px-to-em}",
+                "caption": "Change highlighted text to em",
+                "command": "px-to-em"
+            }
+
+        ]
+    },
+    {
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "px-to-em",
+                        "children":
+                        [
+                            {
+                                "caption": "px-to-em Settings",
+                                "command": "open_file",
+                                "args":
+                                {
+                                    "file": "${packages}/pxtoem/pxtoem.sublime-settings"
+                                }
+                            },
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
